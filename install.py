@@ -68,9 +68,9 @@ def install():
 
 
 try:
-    import launch
+    import sus
 
-    skip_install = launch.args.skip_install
+    skip_install = sus.args.skip_install
 except Exception:
     skip_install = False
 
